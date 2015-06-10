@@ -1,0 +1,13 @@
+<apex:page title="Job Application" 
+           showHeader="false" standardStylesheets="true">
+  <apex:composition template="{!$Site.Template}">
+    <apex:define name="body"> 
+        <br/>
+        <center>
+        <apex:outputText value="Your information is saved.  Thank you for your interest!"/>
+        </center>
+        <br/>
+        <br/>
+    </apex:define>
+  </apex:composition>
+</apex:page>
