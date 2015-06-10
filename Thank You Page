@@ -1,0 +1,37 @@
+<apex:page standardController="Lead"
+           extensions="myWeb2LeadExtension"
+           title="Contact Us" showHeader="false"
+           standardStylesheets="true">
+ <apex:composition template="{!$Site.Template}">
+  <apex:define name="body">
+   <apex:form>
+    <apex:messages id="error"
+                   styleClass="errorMsg"
+                   layout="table"
+                   style="margin-top:1em;"/>
+      <apex:pageBlock title="" mode="edit">
+        <apex:pageBlockButtons>
+           <apex:commandButton value="Save"
+                               action="{!saveLead}"/>
+        </apex:pageBlockButtons>
+        <apex:pageBlockSection title="Contact Us"
+                               collapsible="false"
+                               columns="1">
+         <apex:inputField value="{!Lead.Salutation}"/>
+         <apex:inputField value="{!Lead.Title}"/>
+         <apex:inputField value="{!Lead.FirstName}"/>
+         <apex:inputField value="{!Lead.LastName}"/>
+         <apex:inputField value="{!Lead.Email}"/>
+         <apex:inputField value="{!Lead.Phone}"/>
+         <apex:inputField value="{!Lead.Company}"/>
+         <apex:inputField value="{!Lead.Street}"/>
+         <apex:inputField value="{!Lead.City}"/>
+         <apex:inputField value="{!Lead.State}"/>
+         <apex:inputField value="{!Lead.PostalCode}"/>
+         <apex:inputField value="{!Lead.Country}"/>
+        </apex:pageBlockSection>
+     </apex:pageBlock>
+   </apex:form>
+  </apex:define> 
+ </apex:composition>
+</apex:page>
