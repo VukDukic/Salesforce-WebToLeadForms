@@ -1,0 +1,36 @@
+<form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+
+<input type=hidden name="old" value="00DE0000000c0x8">
+<input type=hidden name="reURL" value="http://vuchina.co">
+<input type=hidden name="rating" value="HOT">
+
+<label for="first_name">First Name</label><input id="first_name" maxlength="40"
+name="first_name" size="20" type="text" /><br>
+
+<label for="last_name">Last Name</label><input id="last_name" maxlength="40"
+name="last_name" size="30" type="text" /><br>
+
+<label for="email">Email</email><input id="email" maxlength="80"
+name="email" size="60" type="text"
+
+<label for="company">Company</label><input id="company" maxlength="40"
+name="company" size="40" type="text" /><br>
+
+Background:<select id="00NE0000002wZTA" name="00NE0000002wZTA"><option value="">--
+None--</option><option value="Bad">Bad Lead</option>
+<option value="Good">Good Lead</option>
+</select>
+
+Lead Type:<select id="00NE00000027rB3" name="00NE00000027rB3" title="Lead Type><option value="">--None---</option>
+<option value="A+">A+</option>
+<option value="A-">A-</option>
+<option value="B+">B+</option>
+<option value="B">B</option>
+<option value="B-">B-</option>
+</select><br>
+
+<br>
+
+<input type="submit" name="submit">
+
+</form>
