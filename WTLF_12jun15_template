@@ -1,0 +1,64 @@
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: Please add the following <META> element to your page <HEAD>.      -->
+<!--  If necessary, please modify the charset parameter to specify the        -->
+<!--  character set of your HTML page.                                        -->
+<!--  ----------------------------------------------------------------------  -->
+
+<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: Please add the following <FORM> element to your page.             -->
+<!--  ----------------------------------------------------------------------  -->
+
+<form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+
+<input type=hidden name="oid" value="00DF00000008HCg">
+<input type=hidden name="retURL" value="http://">
+
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
+<!--  these lines if you wish to test in debug mode.                          -->
+<!--  <input type="hidden" name="debug" value=1>                              -->
+<!--  <input type="hidden" name="debugEmail" value="vukdukic@gmail.com">      -->
+<!--  ----------------------------------------------------------------------  -->
+
+<label for="first_name">First Name</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
+
+<label for="last_name">Last Name</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
+
+<label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
+
+<label for="company">Company</label><input  id="company" maxlength="40" name="company" size="20" type="text" /><br>
+
+<label for="Campaign_ID">Campaign</label><select  id="Campaign_ID" name="Campaign_ID"><option value="">--None--</option><option value="701F0000000Gl8p">GC Product Webinar - Jan 7, 2002</option>
+<option value="701F0000000Gl8q">User Conference - Jun 17-19, 2002</option>
+<option value="701F0000000Gl8r">DM Campaign to Top Customers - Nov 12-23, 2001</option>
+<option value="701F0000000Gl8s">International Electrical Engineers Association Trade Show - Mar 4-5, 2002</option>
+</select><br>
+
+<input type="hidden"  id="member_status" name="member_status" value="" /><br>
+
+<label for="rating">Rating</label><select  id="rating" name="rating"><option value="">--None--</option><option value="Hot">Hot</option>
+<option value="Warm">Warm</option>
+<option value="Cold">Cold</option>
+</select><br>
+
+<label for="lead_source">Lead Source</label><select  id="lead_source" name="lead_source"><option value="">--None--</option><option value="Appexchange">Appexchange</option>
+<option value="LinkedIn">LinkedIn</option>
+<option value="Meetup.com">Meetup.com</option>
+<option value="Other">Other</option>
+<option value="Partner Referral">Partner Referral</option>
+<option value="Phone Inquiry">Phone Inquiry</option>
+<option value="Purchased List">Purchased List</option>
+<option value="San Francisco Business Journal">San Francisco Business Journal</option>
+<option value="Web">Web</option>
+<option value="WeedMaps">WeedMaps</option>
+</select><br>
+
+<label for="description">Description</label><textarea name="description"></textarea><br>
+
+<label for="phone">Phone</label><input  id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
+
+<input type="submit" name="submit">
+
+</form>
