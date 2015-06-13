@@ -36,7 +36,7 @@
 <option value="701F0000000Gl8s">International Electrical Engineers Association Trade Show - Mar 4-5, 2002</option>
 </select><br>
 
-<input type="hidden"  id="member_status" name="member_status" value="" /><br>
+<input type="hidden"  id="member_status" name="member_status" value="Subscribed" /><br>
 
 <label for="rating">Rating</label><select  id="rating" name="rating"><option value="">--None--</option><option value="Hot">Hot</option>
 <option value="Warm">Warm</option>
