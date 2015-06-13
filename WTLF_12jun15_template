@@ -37,6 +37,7 @@
 </select><br>
 
 <input type="hidden"  id="member_status" name="member_status" value="Subscribed" /><br>
+<input type="hidden" id="lead_source" name="lead_source" value="Test for LinkedIn" />
 
 <label for="rating">Rating</label><select  id="rating" name="rating"><option value="">--None--</option><option value="Hot">Hot</option>
 <option value="Warm">Warm</option>
