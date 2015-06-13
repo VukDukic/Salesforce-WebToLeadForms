@@ -30,7 +30,7 @@
 
 <label for="company">Company</label><input  id="company" maxlength="40" name="company" size="20" type="text" /><br>
 
-<label for="Campaign_ID">Campaign</label><select  id="Campaign_ID" name="Campaign_ID"><option value="">--None--</option><option value="701F0000000Gl8p">GC Product Webinar - Jan 7, 2002</option>
+<label for="Campaign_ID">Campaign</label><select  id="Campaign_ID" name="Campaign_ID" value="701F0000000SY2d"><option value="">--None--</option><option value="701F0000000Gl8p">GC Product Webinar - Jan 7, 2002</option>
 <option value="701F0000000Gl8q">User Conference - Jun 17-19, 2002</option>
 <option value="701F0000000Gl8r">DM Campaign to Top Customers - Nov 12-23, 2001</option>
 <option value="701F0000000Gl8s">International Electrical Engineers Association Trade Show - Mar 4-5, 2002</option>
